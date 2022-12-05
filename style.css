@@ -1,0 +1,507 @@
+*{
+	padding: 0;
+	margin: 0;
+box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+      
+header{
+	width: 100%;
+	height: 100vh;
+	background: url('img/kendalljenner.jpg');
+	background-size: cover;
+	background-position: top 65px center;
+	/*background-attachment: fixed;	*/
+}
+
+nav{
+	background: white;
+	width: 100%;
+	height: 70px;
+	border-bottom: 1px solid gray;
+	box-shadow: 2px 0px 5px gray;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+nav .logo{
+	cursor: pointer;
+	font-size: 70px;
+	font-weight: bold;
+	color: navy;
+}
+
+nav .logo .logo snap{
+	color: red;
+}
+.menu a{
+    text-decoration: none;   
+    color: black;
+    font-size: 28px;
+    padding: 10px 20px;
+    margin: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.menu a:hover{
+	border-top: 2x solid #5dade2;
+	border-bottom: 2px solid black;
+}
+
+.login button a
+{
+	text-decoration: none;
+	background-color: rgb(234, 237, 187);
+	color: black;
+	font-size: 18px;
+}
+.login button 
+{
+	text-decoration: none;
+	background-color: rgb(234, 237, 187);
+	border-radius: 18px;
+	height: 1.1cm;
+}
+
+#h-text{
+    max-width: 500px;
+    position: absolute;
+    top: 40%;
+    left: 12%;
+    text-align: center;
+}
+
+#h-text h1{
+	font-family: 'Noto Serif', serif;
+	font-size: 55px;
+    font-weight: bold;
+}
+
+#h-text p{
+	font-size: 18px;
+	font-family: 'Mate SC', serif;
+}
+#h-text span{
+	color: blue;
+}
+#h-text #camera{
+	font-size: 25px;
+ 	margin-top: 15px;
+ 	cursor: pointer;
+}
+
+#h-text button{
+	width: 18%;
+	padding: 5px 15px;
+	margin-top: 15px;
+	font-size: 25px;
+	cursor: pointer;
+	color: white;
+	font-weight: bold;
+	background: linear-gradient(45deg, black, rgb(43, 43, 90));
+	border-radius: 10px;
+}
+
+#h-text button:hover{
+	color: rgb(17, 11, 9);
+	border: 1px solid rgb(139, 11, 75);
+	background: linear-gradient(to left, rgb(33, 196, 207), rgb(134, 44, 59));
+	transition: 0.3s;
+}
+
+#brand-item{
+	padding: 100px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#brand-item img:hover{
+	transform: scale(1.2);
+	transition: 0.4s linear;
+}
+
+.container{
+	padding: 80px 0px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform-style: preserve-3d;
+	transform-origin: center;
+	perspective: 2000px;
+}
+.left{
+	flex-basis: 50%;
+	animation: animate 3s linear infinite;
+}
+@keyframes animate{
+	0%{
+		transform: scale(1.1);
+	}
+	50%{
+		transform: scale(1);
+	}
+	100%{
+		transform: scale(1.1);
+	}
+}
+.right{
+	flex-basis: 50%;
+	max-width: 400px;
+	margin-left: 100px;
+}
+.right h1{
+	font-size: 50px;
+	color: rgba(19, 18, 18, 0.89);
+}
+.right p{
+	font-size: 25px;
+	margin: 20px 0px;
+ 	font-family: 'Mate SC', serif;
+}
+.right a{
+	color: white;
+}
+
+button{
+	background: black;
+	color: white;
+	font-weight: bold;
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.right i{
+	margin-top: 15px;
+	font-size: 20px;
+	cursor: pointer;	
+}
+
+#featured{
+	padding: 50px 0px;
+	font-size: 30px;
+	text-align: center;
+}
+#featured p{
+	margin-bottom: 33px;
+}
+#featured img:hover{
+	transform: scale(1.2);
+	transition: 0.2s linear;
+}
+.fashion{
+	display: grid;
+	grid-template-columns: repeat(5,20%);
+	grid-auto-rows: minmax(200px,auto);
+}
+
+.product{
+	padding: 20px 0px;
+	font-size: 30px;
+	text-align: center;
+}
+.product img:hover{
+	transform: scale(1.2);
+	transition: 0.3s linear;
+}
+.product h1{
+	text-transform: uppercase;
+	padding: 15px 0px;
+}
+.product h1 p{
+	margin-top: 10px;
+}
+.product p{
+	color: rgba(19, 18, 18, 0.89);
+	margin-bottom: 23px;
+}
+.leatest{
+	display: grid;
+	grid-template-columns: repeat(4,25%);
+	grid-auto-rows: minmax(200px,auto);
+}
+.leatest p{
+	margin-top: 8px;
+	font-size: 20px;
+}
+
+.leatest a{
+	color: #ffffff;
+}
+
+.leatest button:hover{
+	color: black;
+	background: red;
+}
+
+.leatest-outfit a{
+	color: white;
+}
+.product .leatest p{
+	margin: 12px;
+}
+
+.title{
+	padding: 50px;
+	font-size: 25px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#shop-now{
+	width: 100%;
+	padding: 50px;
+}
+#shop-now img:hover{
+	transform: scale(1.2);
+	transition: 0.3s linear;
+	/*opacity: 0.7;*/
+}
+
+#shop-now .leatest-outfit{
+	/*transition: 0.3s all;*/
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 10px;
+	/*box-shadow: 2px 3px 5px rgb(160, 146, 146);*/	
+}
+
+#shop-now .leatest-outfit p{
+	position: relative;
+	bottom: 8rem;
+	margin-bottom: 2rem;
+	display: inline-block;
+	color: black;
+	font-weight: bold;
+	background: red;
+	font-size: 20px;
+	cursor: pointer;	
+}
+
+#shop-now .leatest-outfit h4{
+	color: rgba(19, 18, 18, 0.89);
+	font-weight: lighter;
+	margin-top: 8px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 20px;
+	cursor: pointer;
+}
+#shop-now .leatest-outfit h4:hover{
+	transform: scale(1.2);
+	transition: 0.3s linear;
+}
+.leatest-outfit .rating{
+	text-align: center;
+	font-size: 18px;
+	font-weight: lighter;
+	color: #282c3f;
+ }
+ 
+.leatest-outfit button{
+	margin-top: 8px;
+	transform: translateY(20px);
+	transition: 0.2s a11;
+}
+
+
+
+#men{
+	padding: 10px 0px;
+}
+.man-row{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0px 30px;
+	margin-bottom: 20px;
+ }
+ .man-row h3{
+	color: rgba(19, 18, 18, 0.89);
+    font-weight: lighter;
+    margin-top: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    cursor: pointer;
+ }
+
+.man-box{
+	flex-basis: 13%;
+}
+.man-box img{
+	width: 100%;
+	height: 150px;
+	cursor: pointer;
+	box-shadow: 2px 3px 5px rgb(160, 146, 146);
+}
+.man-box img:hover{
+	transform: scale(1.2);
+	transition: 0.3s linear;
+}
+
+#men #man-2{
+	margin-bottom: 80px;
+	text-align: center;
+	font-size: 50px;
+    color: rgba(19, 18, 18, 0.89);
+}
+
+.man-box h4{
+    background: red;
+    display: inline-block;
+    border-radius: 5px;
+    position: relative;
+    bottom: 1rem;
+}
+
+#women{
+	padding: 10px 0px;
+}
+.women-row{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0px 30px;
+	margin-bottom: 20px;
+ }
+ .women-row h3{
+	color: rgba(19, 18, 18, 0.89);
+    font-weight: lighter;
+    margin-top: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    cursor: pointer;
+ }
+
+.women-box{
+	flex-basis: 13%;
+}
+
+.women-box img{
+	width: 100%;
+	height: 150px;
+	cursor: pointer;
+	box-shadow: 2px 3px 5px rgb(160, 146, 146);
+}
+
+.women-box img:hover{
+	transform: scale(1.2);
+	transition: 0.3s linear;
+}
+
+#women #women-2{
+	margin-bottom: 80px;
+	text-align: center;
+	font-size: 50px;
+    color: rgba(19, 18, 18, 0.89);
+}
+
+.women-box h4{
+    background: red;
+    display: inline-block;
+    border-radius: 5px;
+    position: relative;
+    bottom: 1rem;
+}
+
+#footer{
+	padding: 20px;
+	background: linear-gradient(to right, #5d7997, #fccdd3);
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.fab{
+	transition: 0.3s;
+}
+
+.fab:hover{
+	padding: 5px 15px;
+	border: 2px solid ;
+	background: linear-gradient(to right, rgb(206, 175, 3), rgb(204, 3, 3));
+}
+
+.container{
+	max-width: 1170px;
+	margin: auto;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer{
+	background-color: #24262b;
+	padding: 70px 0;
+	width: 100%;
+}
+
+.footer-col{
+	width: 25%;
+	padding: 0 15px;
+}
+
+.footer-col h4{
+	font-size: 25px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+	font-size: 20px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin: 0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}

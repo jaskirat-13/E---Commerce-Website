@@ -1,0 +1,224 @@
+@media only screen and (max-width: 770px){
+    nav{
+        width: 36rem;
+        height: 70px;
+    }
+    .menu a{
+        font-size: 1.5rem;
+        padding: 10px .05rem;
+        margin: 5px;
+    }
+    nav .logo{
+        cursor: pointer;
+        font-size: 1.5rem;
+    }
+    header{
+        width: 36rem;
+        height: 30rem;
+    }
+
+    #h-text{
+        max-width: 36rem;
+        top: 7rem;
+        left: 5rem;
+    }
+    
+    #h-text h1{
+        font-size: 3rem;
+    }
+    
+    #h-text p{
+        font-size: 1.5rem;
+    }
+    
+    #h-text #camera{
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+    }
+    
+    #h-text button{
+        width: 25%;
+        font-size: 1.5rem;
+    }
+
+    #brand-item{
+        padding: 2rem 15rem;
+        display: block;
+    }
+
+    .container{
+        padding: 3rem;
+        width: 36rem;
+    }
+
+    .left{
+        flex-basis: 500%;
+    }
+
+    .right{
+        flex-basis: 5%;
+        max-width: 50rem;
+        margin-left: 3rem;
+    }
+    .right h1{
+        font-size: 2rem;
+    }
+    .right p{
+        font-size: 1.2rem;
+    }
+    button{
+        padding: .5rem .5rem;
+    }
+
+    #featured{
+        padding: .1rem;
+        font-size: 1.5rem;
+        text-align: center;
+
+    }
+    #featured h1{
+        margin-bottom: 2rem;
+        margin-left: 8rem;
+    }
+    .fashion{
+        display: block;
+    }
+    .fashion img{
+        margin-left: 8rem;
+    }
+
+    .product{
+        padding: 20px 0px;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .product h1{
+        font-size: 2rem;
+        margin-left: 8rem;
+        padding: 15px 0px;
+    }
+
+    .product p{
+        margin-left: 2rem;
+        font-size: 1.5rem;
+    }
+    .leatest{
+        display: block;
+        margin-left: 8rem;
+    }
+    .leatest p{
+        padding: .01rem;
+        font-size: 20px;
+    }
+    .leatest button{
+        margin-top: .1rem;
+    }
+    
+    .title{
+        font-size: 1rem;
+        margin-left: 8rem;
+    }
+
+    #shop-now{
+        width: 36rem;
+        padding: 2rem;
+    }
+
+    #shop-now .leatest-outfit{
+        display: block;
+        margin-left: 8rem;
+    }
+    
+    #shop-now .leatest-outfit h4{
+        margin-left: 8rem;
+        font-size: 20px;
+    }
+
+    #men{
+        padding: 1rem;
+    }
+
+    .h1{
+        font-size: 15px;
+        margin-left: 8rem;
+    }
+
+    .man-row{
+        display: block;
+        margin-left: 8rem;
+        padding: 0px 30px;
+        margin-bottom: 20px;
+    }
+    .man-row h3{
+        margin-left: 3rem;
+        margin-top: .1rem;
+        font-size: 1.2rem;
+     }
+    
+    .man-box img{
+        width: 13rem;
+        height: 150px;
+        cursor: pointer;
+    }
+    #women{
+        padding: 1rem;
+    }
+    .women-row{
+        display: block;
+        margin-left: 8rem;
+
+     }
+     .women-row h3{
+        margin-top: 8px;
+        font-size: 20px;
+        cursor: pointer;
+     }
+    
+    .women-box{
+        flex-basis: 13%;
+    }
+    
+    .women-box img{
+        width: 100%;
+        height: 150px;
+    }
+    
+    #women #women-2{
+        margin-bottom: 80px;
+        font-size: 50px;
+    }
+    
+    .women-box h4{
+        background: red;
+        display: inline-block;
+        border-radius: 5px;
+        position: relative;
+        bottom: 1rem;
+    }
+
+    #footer{
+        width: 36rem;
+        padding: 1.5rem;
+    }
+
+    .container{
+        max-width: 36rem;
+        margin-inline: 1.5rem;
+    }
+    
+    .row{
+        display: flexbox;
+        flex-wrap: wrap;
+    }
+    
+    .footer{
+        background-color: #24262b;
+        padding: 70px 0;
+        width: 36rem;
+    }
+    
+    .footer-col{
+        width: 7rem;
+    }
+}
